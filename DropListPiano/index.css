@@ -1,0 +1,105 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: indigo;
+    padding: 0px;
+    height: 70px;
+    margin: 0;
+}
+
+#container {
+    background: #FFD700;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+
+#navigation {
+    background-color: indigo;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#content {
+    background: #DCDCDC;
+    float: right;
+    width: 100%;
+    height: 100vh;
+}
+
+#footer {
+    background: #00BFFF;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+ul a {
+    font-family: fantasy;
+    color: #efefef;
+}
+
+ul.ddropdownn li {
+    position: relative;
+}
+
+ul.ddropdownn, ul.ddropdownn-inside {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.ddropdownn-inside {
+    /* Спрячем дочерние элементы выпадающего списка. */
+    left: -9999px;
+    position: absolute;
+}
+
+ul.ddropdownn li.ddropdownn-top {
+    margin: 0 1px 0 0;
+    float: left;
+    display: inline;
+}
+
+ul.ddropdownn li.ddropdownn-top a {
+    display: block;
+    padding: 3px 10px 4px;
+}
+
+ul.ddropdownn a.ddropdownn-top {
+    background: indigo;
+}
+
+ul.ddropdownn a.ddropdownn-top:hover {
+    padding: 3px 10px 4px;
+}
+
+ul.ddropdownn li.ddropdownn-top:hover .ddropdownn-inside {
+    left: 0;
+    display: block;
+}
+
+ul.ddropdownn .ddropdownn-inside {
+    background: purple;
+}
+
+ul.ddropdownn .ddropdownn-inside a:hover { /* Цвет фона изменится при наведении. */
+    background: hotpink;
+}
+
+a {
+    text-decoration: none;
+}
+
